@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumiFun - Wkrótce Otwarcie!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ffccff, #ccddff);
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        h1 {
+            color: #ff66b2;
+            font-size: 2em;
+        }
+        p {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #ff66b2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff3385;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LumiFun</h1>
+        <p>Pracujemy nad czymś wyjątkowym!</p>
+        <a href="#" class="btn">Śledź nasze aktualności</a>
+    </div>
+</body>
+</html>
